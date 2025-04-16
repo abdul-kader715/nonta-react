@@ -1,5 +1,5 @@
 import React from "react";
-import Accordion from "./accordion";
+import Accordion from "./Accordion";
 import Accordionrigth from "../../images/faq/rigth_img.jpg";
 import shape from "../../images/faq/shape.png";
 
