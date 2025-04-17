@@ -5,7 +5,6 @@ import HeaderTopSection from "../HeaderTopSection/HeaderTopSection";
 // images
 import Logo from '../../images/logo.png';
 import HeaderSearch from "../HeaderSearch/HeaderSearch";
-import MobileCart from "../MobileCart/MobileCart";
 
 
 
@@ -36,7 +35,6 @@ const HeaderSection = () => {
                 <Link to="/" className="logo">
                     <img src={Logo} alt="" />
                 </Link>
-                <MobileCart />
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-8 col-12">

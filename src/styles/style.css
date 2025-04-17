@@ -1064,7 +1064,7 @@ img {
     width: 300px;
     background: #ffffff;
     position: absolute;
-    height: 100vh;
+    height: auto;
     right: 0;
     top: 0;
     padding: 20px;
