@@ -6,6 +6,7 @@ import Image from "../../images/service.jpg"
 import HeaderSectionS2 from '../../components/HeaderSectionS2/HeaderSectionS2';
 import PageTitleSection from '../../components/PageTitleSection/PageTitleSection';
 import FooterSection from '../../components/FooterSection/FooterSection';
+import BrandSection from '../../components/BrandSection/BrandSection';
 
 const ServiceSinglePage = (props) => {
     const { slug } = useParams()
@@ -67,6 +68,7 @@ const ServiceSinglePage = (props) => {
                     </div>
                 </div>
             </section>
+            <BrandSection hclass={'brand_section'} />
             <FooterSection tClass={'footer_section_s2'} />
         </Fragment>
 

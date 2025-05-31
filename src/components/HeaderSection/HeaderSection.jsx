@@ -11,12 +11,7 @@ import HeaderSearch from "../HeaderSearch/HeaderSearch";
 
 const HeaderSection = () => {
 
-
-
-
-
     const [menuOpen, setMenuOpen] = useState(false);
-
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
